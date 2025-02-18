@@ -8,7 +8,7 @@
     });
   </script>
   
-  <h1>Countries</h1>
+  <h1>Countries of the world</h1>
   <ul>
     {#each countries as country}
       <li>
@@ -22,10 +22,7 @@
       margin: 0;
       padding: 0;
       box-sizing: border-box;
-    }
-  
-    * {
-      color: rgb(184, 5, 5);
+      color: rgb(66, 185, 240);
       font-family: 'Arial', sans-serif;
       padding: 20px;
     }
@@ -51,23 +48,15 @@
       color: #1815b9;
       text-decoration: none;
       font-size: 1.2rem;
-      transition: color 0.3s ease;
     }
   
     a:hover {
-      color: #033e61;
+      color: #051725;
     }
   
     li:hover {
-      background-color: #3e6e6e;
-      border-radius: 5px;
-      padding: 5px 10px;
+      background-color: #61a8eb;
     }
-  
-    li a {
-      display: block;
-      padding: 10px;
-      border-radius: 5px;
-    }
+
   </style>
   
